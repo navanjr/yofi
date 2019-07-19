@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Gilroy-ExtraBold', serif;
+  src: url('fontface/Gilroy-ExtraBold.otf') format('OpenType');
+}
+
+body {
+  margin: 0;
+  background-color: #FDFDFD;
+  overflow: hidden;
+}
+
+h1 {
+  font-family: Gilroy-Extrabold;
+  color: #444444;
+  margin: 0;
+}
+h2 {
+  font-family: Gilroy-Extrabold;
+  color: #444444;
+  margin: 0;
+}
+
+.header {
+ width: 4em;
+ padding: 2em
+}
+
+.contact {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  width: 100%;
+}
+
+.coffee {
+  width: 10em;
+  margin: 1em;
+}
+
+.emailButton {
+  text-align: center;
+  background-color: #F5F5F5;
+  color: #444;
+  font-size: 16pt;
+  width: 10em;
+  height: 2em;
+  padding: 0.8em 1em 0em 1em;
+  border-radius: 0.3em;
+  font-family: Gilroy-ExtraBold;
+  margin: 1em auto;
+
+}
+
+.footer {
+  background-color: #559CFF;
+  padding: 0.1em 3em;
+  color: #FDFDFD;
+  margin-top: 1em;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  border-top-left-radius: 4em;
+}
+.llc {
+  line-height: 0.7em;
+  padding-top: 0.4em;
+  padding-left: 1em;
+}
